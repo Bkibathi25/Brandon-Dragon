@@ -1,4 +1,4 @@
-
+import java.awt.*;
 /**
  * Write a description of class BackgroundDragon here.
  * 
@@ -9,6 +9,7 @@ public class BackgroundDragon
 {
     // instance variables - replace the example below with your own
     private int x;
+    private int y;
     private int width;
     private int length;
     private Color topcolor;
@@ -18,23 +19,37 @@ public class BackgroundDragon
     /**
      * Constructor for objects of class BackgroundDragon
      */
-    public BackgroundDragon(int width, int height);
+    public BackgroundDragon()
     {
         // initialise instance variables
-        this.width = width;
-        this.height = height;
-        topcolor = Color.BLUE;
+        x = 50;
+        y = 50;
+        width = 500;
+        length = 500;
+        topcolor = Color.CYAN;
+        bottomcolor = new Color(102, 51, 0);
         topright = Color.YELLOW;
-        bottomcolor = Color.GREEN;
+      
         
     }
-    public BackgroundDragon(int w, int h, Color.topcolor, Color.bottomcolor, )
-    {
+    public BackgroundDragon(int w, int h, Color topcolor, Color topright, Color bottomcolor){
+        this.width = width;
+        this.length = length;
+        this.topcolor = topcolor;
+        this.topright = topright;
+        this.bottomcolor = bottomcolor;
         
         
     }
     
-    public BackgroundDragon(int w, int h, color )
+    public void drawbackground(Graphics g)
+    {
+        g.setColor(topcolor);
+        g.fillRect(0, 0, width, (length * 3)/4);
+        g.setColor(bottomcolor);
+        g.fillRect(0, (width * 3)/4, width, (length * 1)/4);
+        
+    }
 
      
         
