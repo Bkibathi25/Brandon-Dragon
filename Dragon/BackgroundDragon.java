@@ -48,8 +48,11 @@ public class BackgroundDragon
         g.fillRect(0, 0, width, (length * 3)/4);
         g.setColor(bottomcolor);
         g.fillRect(0, (width * 3)/4, width, (length * 1)/4);
+        g.setColor(topright);
+        //g.fillOval
         
     }
+    
 
      
         

@@ -10,7 +10,7 @@ public class Dragon
     // instance variables - replace the example below with your own
     private int x;
     private int y;
-    private int grow1;
+    //private int grow1;
     private int size;
     private Color c;
     private String bodyType;
@@ -78,12 +78,17 @@ public class Dragon
         
      
     }
-    public void grow (Graphics g)
+    //public void List (Graphics g)
+    //{
+   //     System.out.print
+    //}
+    
+    /*public void grow (Graphics g)
     {
      grow1 = size*2;        
          
       
-    }
+    *}
     /**
      * Mutator Methods
      */
@@ -91,7 +96,7 @@ public class Dragon
     /**
      * toString
      */
-    public String toString(){
+   public String toString(){
         return "x coor: " + x + " y coord: " + y + " size: " + size + "color" + c;
     }
 }
