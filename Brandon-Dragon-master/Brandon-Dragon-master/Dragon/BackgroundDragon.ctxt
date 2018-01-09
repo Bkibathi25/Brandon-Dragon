@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=BackgroundDragon
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ BackgroundDragon\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=BackgroundDragon()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BackgroundDragon\r\n
+comment2.params=w\ h\ topcolor\ topright\ bottomcolor
+comment2.target=BackgroundDragon(int,\ int,\ java.awt.Color,\ java.awt.Color,\ java.awt.Color)
+comment3.params=g
+comment3.target=void\ drawbackground(java.awt.Graphics)
+comment4.params=y
+comment4.target=int\ sampleMethod(int)
+comment4.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+numComments=5
